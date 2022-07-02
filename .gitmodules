@@ -7,6 +7,3 @@
 [submodule "mysql"]
 	path = mysql
 	url = https://github.com/igor-sadza/StrongCloud/tree/mysql
-[submodule "nextcloud"]
-	path = nextcloud
-	url = https://github.com/igor-sadza/StrongCloud/tree/nextcloud
