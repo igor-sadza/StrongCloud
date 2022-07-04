@@ -4,3 +4,6 @@
 [submodule "help"]
 	path = help
 	url = https://github.com/igor-sadza/StrongCloud/tree/help
+[submodule "nginx"]
+	path = nginx
+	url = https://github.com/igor-sadza/StrongCloud/tree/nginx
