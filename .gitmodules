@@ -1,9 +1,12 @@
 [submodule "mysql"]
 	path = mysql
-	url = https://github.com/igor-sadza/StrongCloud/tree/mysql
+	url = https://github.com/igor-sadza/StrongCloud.git
+	branch = mysql
 [submodule "help"]
 	path = help
-	url = https://github.com/igor-sadza/StrongCloud/tree/help
+	url = https://github.com/igor-sadza/StrongCloud.git
+	branch = help
 [submodule "nginx"]
 	path = nginx
-	url = https://github.com/igor-sadza/StrongCloud/tree/nginx
+	url = https://github.com/igor-sadza/StrongCloud.git
+	branch = nginx
