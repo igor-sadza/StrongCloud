@@ -4,10 +4,15 @@
 
 ABOUT:
   Makefile helper scripts                      
+
+
+SCRIPTS:
+  -> misc.sh
+  -> log.sh
+  -> env.sh
+  -> git.sh ? // help to manage git commits etc.
                                                    
 FLOW:                           
-
-
 
                                                                     
                                           +--------------+           -> where are composes!?@
@@ -16,6 +21,10 @@ FLOW:
                                  |
                                  |
   +------------+         +-------+-----+
-  |  makefile  +---------+  script.sh  |
-  +------------+         +-------------+
- 
+  |  makefile  +---------+    *.sh     |
+  +------------+         +-------+-----+
+                                 |
+                                 |
+                                 |         +-------------+            
+                                 +-------- +   log.sh    + ---------+ -> print colored logs!
+                                           +-------------+
