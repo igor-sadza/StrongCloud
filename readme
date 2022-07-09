@@ -2,9 +2,20 @@
 ┣━┫┣╸ ┃  ┣━┛
 ╹ ╹┗━╸┗━╸╹  
 
-┌──────┐
-│About:│
-└──────┘
+ABOUT:
+  Makefile helper scripts                      
+                                                   
+FLOW:                           
 
-  -->  Makefile helper scripts
 
+
+                                                                    
+                                          +--------------+           -> where are composes!?@
+                                 +--------+   misc.sh    +---------+ -> did makefile exec me?
+                                 |        +--------------+           -> docker compose check
+                                 |
+                                 |
+  +------------+         +-------+-----+
+  |  makefile  +---------+  script.sh  |
+  +------------+         +-------------+
+ 
