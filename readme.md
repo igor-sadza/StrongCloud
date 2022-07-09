@@ -1,5 +1,18 @@
 <!-- PROJECT LOGO -->
-<div align="left">
-  <img src=".gitmisc/logo.png" alt="Logo" width="80" height="80">
-  <h3 align="center">help</h3>
+<div>
+  <img align="left" src=".gitmisc/logo.png" alt="Logo" width="50" height="50">
+  <h1>help</h1>
 </div>
+
+<!-- ABOUT THE PROJECT -->
+### About
+
+Bundle of scripts for makefile
+ 
+ <!-- ROADMAP -->
+### Scripts lists
+
+- [ ] misc
+- [ ] git
+- [ ] log
+- [ ] env
