@@ -1,33 +1,7 @@
 #!/bin/bash
 
-#_path=$(dirname "$0")
-#
-#. ./help/misc.sh
-#
-#guardExec
+_path=$(dirname "$0")
 
-function main() {
-  case $1 in
-  commit)
-    echo "git commit" 
-    ;;
+. ./help/misc.sh
 
-  push)
-    echo "git push" 
-    ;;
-
-  status)
-    git status
-    ;;
-
-  pull)
-    echo "git pull" 
-    ;;
-
-  *)
-    echo ".." 
-    ;;
-  esac
-}
-
-main $@
+guardExec
